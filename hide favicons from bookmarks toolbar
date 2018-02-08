@@ -1,4 +1,6 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul); /* only needed once */
+/* Add this CSS to userChrome.css, if missing, create a new one under ...Appdata/Roaming/Mozilla/Firefox/Profiles/[profilename]/chrome */
+
 /* Hide icons for FOLDERS */
 #PlacesToolbarItems .bookmark-item[type="menu"] .toolbarbutton-icon {
   display:none !important
