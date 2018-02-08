@@ -1,0 +1,13 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul); /* only needed once */
+/* Hide icons for FOLDERS */
+#PlacesToolbarItems .bookmark-item[type="menu"] .toolbarbutton-icon {
+  display:none !important
+}
+/* Hide icons for SITES */
+#PlacesToolbarItems .bookmark-item:not([type="menu"]) .toolbarbutton-icon {
+  display:none !important
+}
+/* Add a bit of spacing */
+#PlacesToolbarItems .bookmark-item {
+  margin-left:3px !important; 
+}
